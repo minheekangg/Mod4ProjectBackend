@@ -45,6 +45,6 @@ class Api::V1::LettersController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def letter_params
-      params.require(:letter).permit(:name, :image, :game_id)
+      params.require(:letter).permit(:name, :image, :game_id, :sound)
     end
 end
