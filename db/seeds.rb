@@ -16,6 +16,7 @@ k = Letter.create(name: '11-k', image:'https://github.com/minheekangg/Mod4Projec
 t = Letter.create(name: '12-t', image:'https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/Letters/t.png?raw=true', game_id: game.id, sound: "https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/sound/tSound.m4a?raw=true")
 p = Letter.create(name: '13-p', image:'https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/Letters/p.png?raw=true', game_id: game.id, sound: "https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/sound/pSound.m4a?raw=true")
 h = Letter.create(name: '14-h', image:'https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/Letters/h.png?raw=true', game_id: game.id, sound: "https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/sound/hSound.m4a?raw=true")
+endgame = Letter.create(name:'ENDGAME', image:'http://img.danawa.com/images/descFiles/4/397/3396656_1497000996212.png', game_id: game.id, sound: "https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/sound/hSound.m4a?raw=true")
 # WORDS BELOW
 word1 = Word.create(name:'b-airplane', image:'https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/Words/b-airplane.png?raw=true', letter_id: b.id)
 word2 = Word.create(name:'c-toothbrush', image:'https://github.com/minheekangg/Mod4ProjectBackend/blob/master/app/assets/images/Words/c-toothbrush.png?raw=true', letter_id: c.id)
